@@ -77,6 +77,7 @@ var ContractActionType;
     ContractActionType[ContractActionType["terminate"] = 800] = "terminate";
     ContractActionType[ContractActionType["registerCashPayment"] = 810] = "registerCashPayment";
     ContractActionType[ContractActionType["registerCashPayout"] = 820] = "registerCashPayout";
+    ContractActionType[ContractActionType["registerProviderPayment"] = 830] = "registerProviderPayment";
     ContractActionType[ContractActionType["settle"] = 900] = "settle";
     ContractActionType[ContractActionType["archive"] = 1000] = "archive";
 })(ContractActionType = exports.ContractActionType || (exports.ContractActionType = {}));
